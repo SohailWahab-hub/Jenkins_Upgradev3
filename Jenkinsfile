@@ -17,6 +17,13 @@ pipeline {
                         echo "Deploying in Staging Area"
                   }
             }
+            
+             preproduction('Deploy') {
+                  steps {
+                        echo "Deploying preproduction"
+                  }
+            }
+            
             stage('Deploy Production') {
                   steps {
                         echo "Deploying in Production Area"
