@@ -18,7 +18,7 @@ pipeline {
                   }
             }
             
-             preproduction('Deploy') {
+             preproduction('Deploy preproduction') {
                   steps {
                         echo "Deploying preproduction"
                   }
